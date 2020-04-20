@@ -2,10 +2,10 @@
 A plagiarism detector that examines an answer text file and performs binary classification; labeling that file as either plagiarized or not, depending on how similar that text file is to a provided, source text.
 
 ## Software
-- Anaconda Distribution 2020.02
-- Python 3.7.6
-- Jupyter Notebook 6.0.3
-- AWS SageMaker
+* Anaconda Distribution 2020.02
+* Python 3.7.6
+* Jupyter Notebook 6.0.3
+* AWS SageMaker
 
 ## Dataset
 This data is a slightly modified version of a dataset created by Paul Clough (Information Studies) and
@@ -16,9 +16,7 @@ and corpus, at [their university webpage](https://ir.shef.ac.uk/cloughie/resourc
 Language Resources and Evaluation: Special Issue on Plagiarism and Authorship Analysis, In Press. [Download]
 
 ## Outline
-1. Download the data.
-2. Process / Prepare the data.
-3. Upload the processed data to S3.
-4. Train a RNN model.
-5. Test the trained model by sending test data to it after deployment.
-6. Deploy the model again for the web app
+* Clean and pre-process the data
+* Define features for comparing the similarity of an answer text and a source text, and extract similarity features
+* Select "good" features, by analyzing the correlations between different features
+* Create train/test `.csv` files that hold the relevant features and class labels for train/test data points
