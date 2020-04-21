@@ -16,11 +16,11 @@ and corpus, at [their university webpage](https://ir.shef.ac.uk/cloughie/resourc
 Language Resources and Evaluation: Special Issue on Plagiarism and Authorship Analysis, In Press. [Download]
 
 ## Outline
-* Clean and pre-process the data
-* Define features for comparing the similarity of an answer text and a source text, and extract similarity features
-* Select "good" features, by analyzing the correlations between different features
-* Create train/test `.csv` files that hold the relevant features and class labels for train/test data points
-* Upload train/test feature data to S3
-* Define a binary classification model and a training script
+* Clean and pre-process the data.
+* Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
+* Select "good" features, by analyzing the correlations between different features.
+* Create train/test `.csv` files that hold the relevant features and class labels for train/test data points.
+* Upload train/test feature data to S3.
+* Define a binary classification model and a training script.
 * Train the model and deploy it using SageMaker.
 * Evaluate the deployed classifier.
