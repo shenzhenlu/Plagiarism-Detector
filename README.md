@@ -1,5 +1,5 @@
 # Plagiarism-Detector
-A plagiarism detector that examines an answer text file and performs binary classification deployed with Sagemaker
+A plagiarism detector deployed with Sagemaker that examines an answer text file and performs binary classification.
 
 ## Software
 * Anaconda Distribution 2020.02
