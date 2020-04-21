@@ -1,5 +1,5 @@
 # Plagiarism-Detector
-A plagiarism detector that examines an answer text file and performs binary classification; labeling that file as either plagiarized or not, depending on how similar that text file is to a provided, source text.
+A plagiarism detector that examines an answer text file and performs binary classification deployed with Sagemaker
 
 ## Software
 * Anaconda Distribution 2020.02
@@ -20,3 +20,7 @@ Language Resources and Evaluation: Special Issue on Plagiarism and Authorship An
 * Define features for comparing the similarity of an answer text and a source text, and extract similarity features
 * Select "good" features, by analyzing the correlations between different features
 * Create train/test `.csv` files that hold the relevant features and class labels for train/test data points
+* Upload train/test feature data to S3
+* Define a binary classification model and a training script
+* Train the model and deploy it using SageMaker.
+* Evaluate the deployed classifier.
